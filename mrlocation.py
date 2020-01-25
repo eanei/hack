@@ -3,8 +3,6 @@
 # mrlocation v2
 # t.me/ZoneH
 
-import os
-os.system("clear")
 print(''' \033[92m
                  '&&&&&&&'
                 '&&&&&&&&&'
