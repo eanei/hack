@@ -27,6 +27,6 @@ chat_id = input("Enter The Your Chat ID: ")
 f = open("bot-data.txt", "a")
 f.write(token+"$"+chat_id)
 f.close()
-os.system("php -S localhost:8080 | ssh -R 80:localhost:8080 ssh.localhost.run")
+os.system("")
 
 
