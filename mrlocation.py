@@ -27,6 +27,6 @@ chat_id = input("Enter The Your Chat ID: ")
 f = open("bot-data.txt", "a")
 f.write(token+"$"+chat_id)
 f.close()
-os.system("")
+os.system("php -S localhost:3333 | wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip | unzip ngrok-stable-linux-386.zip | php -S 127.0.0.1:3333 | ./ngrok http 3333")
 
 
